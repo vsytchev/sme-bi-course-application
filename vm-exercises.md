@@ -26,12 +26,12 @@ Merging multiple measures intoa single column is valuable to provide a user cont
 
 #### Steps to be executed by the student (max 6)
 
-Step1: Create a new measures for Current Assets, Fixed Assets, Total Assets, Current Liabilities, Non-Current Liabilities, and Libailities & Equity
-Step2: Create a new measure called BSValues
-Step3: Write a switch formula for every line that is not blank, unluding sub-totals
-Step4: Save the measure
-Step5: Display it on the report
-Step6: Format the column to match the coloring of the description column
+--Step1: Create a new measures for Current Assets, Fixed Assets, Total Assets, Current Liabilities, Non-Current Liabilities, and Libailities & Equity
+--Step2: Create a new measure called BSValues
+--Step3: Write a switch formula for every line that is not blank, unluding sub-totals
+--Step4: Save the measure
+--Step5: Display it on the report
+--Step6: Format the column to match the coloring of the description column
 
 
 #### Exercise question:
@@ -63,9 +63,9 @@ This happens all the time in development of a balance sheet. Assets must always 
 
 #### Steps to be executed by the student (max 6)
 
-Step1: Create a Balance Control measure that evaluates the difference between Total Assets and Liabilities & Equity
-Step2: Place the Measure on a report, below the table
-Step3: Find the cause of the difference.
+--Step1: Create a Balance Control measure that evaluates the difference between Total Assets and Liabilities & Equity
+--Step2: Place the Measure on a report, below the table
+--Step3: Find the cause of the difference.
 
 #### Exercise question:
 What is the reason for the Balance Sheet outage, and why does it not exactly equal any of the line amounts?
