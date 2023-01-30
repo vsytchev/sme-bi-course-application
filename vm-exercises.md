@@ -14,66 +14,63 @@
 #### Files
 
 - [x] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
+- [x] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
 
 #### Learning Objective
 
-Objective: Create Balance Sheet Layout and Relationship between Balance Sheet and Chart of Account
+Objective: Create a Subtotal Measures based on the Balance Sheet layout and a Measure that will display the correct measure based on the line item of the layout and display it on the report.
 
 #### Context
 
-Balance Sheet layout is key to ensure accurate presentaiton. You need to have the ability to review Balance Sheet accounts, break them into appropriate categories and consider the presentation format. This will always be the first step in creating Balance Sheet Statement.
+Merging multiple measures intoa single column is valuable to provide a user control over the report. This exercise combines understanding of measures created and Balance Sheet layout.  
 
 #### Steps to be executed by the student (max 6)
 
-Step1: 
+Step1: Create a new measures for Current Assets, Fixed Assets, Total Assets, Current Liabilities, Non-Current Liabilities, and Libailities & Equity
+Step2: Create a new measure called BSValues
+Step3: Write a switch formula for every line that is not blank, unluding sub-totals
+Step4: Save the measure
+Step5: Display it on the report
+Step6: Format the column to match the coloring of the description column
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
-
-- Step 1
-- Step 2
-- Step 3
-- ...
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+Do the totals for Total Assets and Liabilities & Equity equal?
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+![image](https://user-images.githubusercontent.com/43157508/215370021-7ee11907-db36-4cc4-bab3-36fe712f5d65.png)
+
 
 ## 2nd VM Exercise
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [x] Add datasets used to the `datasets/` folder
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-2-intial.twbx` or `ex-2-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-2-sol.twbx` or `ex-2-sol.pbix`
+- [x] **Initial**: Add file to the `exercises/`  folder with the name `ex-2-intial.twbx` or `ex-2-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
+- [x] **Solution**: Add file to the `exercises/`  folder with the name `ex-2-sol.twbx` or `ex-2-sol.pbix`
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+Create a Balance Control Calculation as an automated check on whether Total Assets equial Liabilities & Equity. Check if the balances equal, and fix if they are not.
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+This happens all the time in development of a balance sheet. Assets must always equal Liabilities & Equity. If they do not, the balance sheet is not balanced and there is a mistake in account mapping or a calculation.
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
-
-- Step 1
-- Step 2
-- Step 3
-- ...
+Step1: Create a Balance Control measure that evaluates the difference between Total Assets and Liabilities & Equity
+Step2: Place the Measure on a report, below the table
+Step3: Find the cause of the difference.
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+What is the reason for the Balance Sheet outage, and why does it not exactly equal any of the line amounts?
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+![image](https://user-images.githubusercontent.com/43157508/215370883-6fa371a4-e442-480c-8a90-b2f70464f798.png)
 
